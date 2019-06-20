@@ -11,11 +11,12 @@
     <header>
       <nav class="navbar navbar-inverse fixed-top" style="background-color: gray">
       <img class="logo-img" src="img/LogoMusica.jpg" alt="logo Música">
+      <h1>Música</h1>
       <div class="redes-sociales">
-        <a href="#"> <img class="img-social img-rounded"src="img/facebook.jpg" alt="facebook"></a>
-        <a href="#"><img class="img-social img-rounded" src="img/instagram.jpg" alt="Instagram"></a>
-        <a href="#"><img class="img-social img-rounded" src="img/twitter.jpg" alt="Twitter"></a>
-        <a href="#"><img class="img-social img-rounded" src="img/whatsapp.jpg" alt="whatsapp"></a>
+        <a href="#"> <img class="img-social rounded float-right"src="img/facebook.jpg" alt="facebook"></a>
+        <a href="#"><img class="img-social rounded float-right" src="img/instagram.jpg" alt="Instagram"></a>
+        <a href="#"><img class="img-social rounded float-right" src="img/twitter.jpg" alt="Twitter"></a>
+        <a href="#"><img class="img-social rounded float-right" src="img/whatsapp.jpg" alt="whatsapp"></a>
       </nav>
       </div>
     </header>
@@ -23,13 +24,13 @@
       <div class="container-fluid">
           <div class="row">
                 <div class="col-lg-12">
-                  <nav class="navbar navbar-inverse">
-                    <a href="#">Inicio</a>
-                    <a href="#">Artistas</a>
-                    <a href="#">Grupos</a>
-                    <a href="#">Top 10</a>
-                    <a href="#">Letras</a>
-                    <a href="#">Acordes</a>
+                  <nav class="navbar navbar-inverse p-3 mb-2 bg-info">
+                    <a href="#" class="text-secondary">Inicio</a>
+                    <a href="#" class="text-secondary">Artistas</a>
+                    <a href="#" class="text-secondary">Grupos</a>
+                    <a href="#" class="text-secondary">Top 10</a>
+                    <a href="#" class="text-secondary">Letras</a>
+                    <a href="#" class="text-secondary">Acordes</a>
                   </nav>
                 </div>
           </div>
@@ -39,43 +40,45 @@
                   <div class="row">
                       <div class="col-lg-6">
                         <h2>Festival del Mono Nuñez</h2>
-                        <p class="text-justify">Evento musical que congrega a los principales compositores e intérpretes de la música andina colombiana. El evento principal es el Concurso de Música Andina, que se ha convertido en plataforma de artistas a nivel internacional, llegando varios de ellos a ser nominados a premios Grammy Latinos.​ El Festival se programa para la festividad de la Ascensión del Señor que según el cálculo de la fecha de pascua cristiana da lugar a finales del mes de mayo o principios de junio.</p>
+                        <p class="text-justify text-align-left">Evento musical que congrega a los principales compositores e intérpretes de la música andina colombiana. El evento principal es el Concurso de Música Andina, que se ha convertido en plataforma de artistas a nivel internacional, llegando varios de ellos a ser nominados a premios Grammy Latinos.​ El Festival se programa para la festividad de la Ascensión del Señor que según el cálculo de la fecha de pascua cristiana da lugar a finales del mes de mayo o principios de junio.</p></div>
+                        <div class="col-lg-6">
+                          <img src="img/mono-nunez.jpg" alt="festival" class="img-fluid rounded">
                       </div>
-                      <div class="col-lg-6 rounded-float-right">
-                        <img src="img/mono-nunez.jpg" alt="festival" class="img-fluid">
-                      </div>
-                      <div>
-                        <img src="img/icono.jpg" alt="">
-                        <input type="textarea" name="comentarios" placeholder="comentario...">
+                      <div class="col-lg-12">
+                        <img src="img/icono.jpg" alt=""/>
+                        <input type="textarea" name="comentarios" placeholder="comentario..." class="form-control"/>
                       </div>
                   </div>
                   <div class="row">
                       <div class="col-lg-6">
-                        <h2>André Rieu</h2>
-                        <p class="text-justify">Por primera vez en Colombia, el 12, 13, 14 y 15 de septiembre, se presentara la orquesta de Andreú Rieu, fechas que serán inolvidables y que quedarán en la memoria de los Colombianos. “Al principio, éramos sólo 12 músicos, ahora somos 50 y, a veces, en grandes escenarios, incluso hemos llegado a ser 60” dice André Rieu cuando habla de su orquesta Johan Strauss.</p>
+                        <img src="img/andre.jpg" alt="orquesta" class="img-fluid rounded">
                       </div>
                       <div class="col-lg-6 rounded-float-right">
-                        <img src="img/andre.jpg" alt="orquesta" class="img-fluid">
+                        <h2>André Rieu</h2>
+                        <p class="text-justify">Por primera vez en Colombia, el 12, 13, 14 y 15 de septiembre, se presentara la orquesta de Andreú Rieu, fechas que serán inolvidables y que quedarán en la memoria de los Colombianos. “Al principio, éramos sólo 12 músicos, ahora somos 50 y, a veces, en grandes escenarios, incluso hemos llegado a ser 60” dice André Rieu cuando habla de su orquesta Johan Strauss.</p>
+
                       </div>
-                      <div>
-                        <img src="img/icono.jpg" alt="">
-                        <input type="textarea" name="comentarios" placeholder="comentario...">
+                      <div class="col-lg-12">
+                        <img src="img/icono.jpg" alt=""/>
+                        <input type="textarea" name="comentarios" placeholder="comentario..." class="form-control"/>
                       </div>
                   </div>
 
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="">
-                  <!-- añadir busqueda-->
+                <div class="form-group">
+                  <img src="" alt="">
+                  <input type="text" class="form-control" name="buscar">
+                  <label for="buscar">Buscar</label>
                 </div>
                 <div>
                   <ul class="list-group">
-                    <li class="list-group-item active">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Morbi leo risus</li>
-                    <li class="list-group-item">Porta ac consectetur ac</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
+                    <a href="#"><li class="list-group-item">Cras justo odio</li></a>
+                    <a href="#"><li class="list-group-item">Dapibus ac facilisis in</li></a>
+                    <a href="#"><li class="list-group-item">Morbi leo risus</li></a>
+                    <a href="#"><li class="list-group-item">Porta ac consectetur ac</li></a>
+                    <a href="#"><li class="list-group-item">Vestibulum at eros</li></a>
                 </ul>
                 </div>
               </div>

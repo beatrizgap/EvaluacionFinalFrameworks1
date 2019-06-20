@@ -2,13 +2,18 @@
   width: 150px;
 
 }
-.img-social{
+
+
+.redes-sociales img{
   width: 30px;
-}
-.redes-sociales{
-  padding-bottom: 0px;
-  margin: 0px;
+  margin: 2px;
+  margin-bottom: 0px;
 }
 .container-fluid{
   margin-top: 120px;
+
+}
+
+body{
+  background: #e35546;
 }
