@@ -18,5 +18,39 @@ background-image: url(../img/fondo.jpg);
 }
 
 .encabezado{
-  background: yellow;
+  background: hsla(360, 100%, 100%, 0.8);
+  margin: 0px 50px 0px 50px;
+}
+.general{
+  background: hsla(360, 100%, 100%, 0.5);
+  margin: 0px 50px 0px 50px;
+}
+
+.articulo{
+  background: #D0F5A9;
+  padding: 10px;
+}
+.collection-item{
+  background: #D0F5A9;
+  padding: 10px;
+}
+.textarea{
+  background: #D0F5A9;
+  padding: 10px;
+}
+.menu{
+  background: #ECE0F8;
+  padding: 10px;
+}
+.favoritos{
+  background: #ECE0F8;
+  padding: 10px;
+}
+.nav{
+  background: #ECE0F8;
+  padding: 10px;
+}
+.buscador{
+  background: #ECE0F8;
+  padding: 10px;
 }

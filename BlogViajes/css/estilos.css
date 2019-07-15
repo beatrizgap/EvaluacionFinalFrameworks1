@@ -1,0 +1,10 @@
+body{
+  margin: 0px 30px 0px 30px;
+    background-image: url(../img/paisaje3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 99% auto;
+}
+.card{
+  padding: 10px;
+}
